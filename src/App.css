@@ -1,0 +1,73 @@
+*{box-sizing: border-box;
+margin: 0;
+padding:0;}
+
+.table, .jumbotron {
+    margin-top: 40px;
+}
+
+.navbar-brand {
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.workers {
+
+}
+.workers__info {
+    margin: 20px auto;
+    background-color: #e9ecef;
+    width: 900px;
+    height: 300px;
+    padding: 10px;
+
+}
+.workers__info ul {
+        list-style-type: none;
+}
+.workers__info ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.bold {
+    font-weight: bold;
+    font-size: 1.35rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.pagination ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.pagination li {
+    margin: 0px 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    width: 30px;
+    text-align: center;
+
+}
+.pagination li:hover {
+    background-color:#6c757d;
+    color: #fff;
+}
+
+.button {
+   margin: 0px 10px 0px 10px;
+}
